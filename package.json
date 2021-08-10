@@ -1,11 +1,11 @@
 {
   "name": "@prasenjit-net/fake-lib-2",
   "version": "1.0.0",
+  "license": "MIT",
   "source": "src/index.js",
   "exports": "./dist/index.modern.js",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.module.js",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@storybook/addon-actions": "^6.3.7",
@@ -14,15 +14,14 @@
     "@storybook/react": "^6.3.7",
     "babel-loader": "^8.2.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "microbundle": "^0.13.3"
   },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "dependencies": {
-    "microbundle": "^0.13.3"
-  },
+  "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

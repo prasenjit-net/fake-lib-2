@@ -6,6 +6,10 @@ export default {
   component: MyComponent,
   argTypes: {
     backgroundColor: { control: "color" },
+    textColor: {
+      options: ["red", "blue", "green"],
+      control: { type: "radio" },
+    },
   },
 };
 
